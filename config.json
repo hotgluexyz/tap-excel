@@ -1,0 +1,8 @@
+{
+	"files":	[ 	
+					{	"entity" : "ada",
+						"path" : "adausdtmomdata.xlsx",
+						"keys" : ["Id"]
+					}
+				]
+}

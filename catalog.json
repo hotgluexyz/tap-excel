@@ -1,0 +1,285 @@
+{
+  "streams": [
+    {
+      "tap_stream_id": "ada",
+      "replication_method": "FULL_TABLE",
+      "key_properties": [
+        "Id"
+      ],
+      "schema": {
+        "properties": {
+          "Position Side": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Entry Dates": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Exit Dates": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Volume": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "RSI": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "%K": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "%D": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Momentum": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Slope Momentum": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Entry Price": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Entry Balance": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Exit Balance": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "PNL%": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Mom Percentage": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Trade Candle": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Percent Change": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "Previous Candle": {
+            "type": [
+              "string",
+              "null"
+            ]
+          }
+        },
+        "type": "object"
+      },
+      "stream": "ada",
+      "metadata": [
+        {
+          "breadcrumb": [
+            "properties",
+            "Position Side"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Entry Dates"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Exit Dates"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Volume"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "RSI"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "%K"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "%D"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Momentum"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Slope Momentum"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Entry Price"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Entry Balance"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Exit Balance"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "PNL%"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Mom Percentage"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Trade Candle"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Percent Change"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [
+            "properties",
+            "Previous Candle"
+          ],
+          "metadata": {
+            "inclusion": "available"
+          }
+        },
+        {
+          "breadcrumb": [],
+          "metadata": {
+            "inclusion": "available",
+            "selected": true,
+            "selected-by-default": true,
+            "table-key-properties": [
+              "Id"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

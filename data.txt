@@ -1,0 +1,966 @@
+{
+  "type": "STATE",
+  "value": {}
+}
+{
+  "type": "SCHEMA",
+  "stream": "ada",
+  "schema": {
+    "properties": {
+      "Entry Dates": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "Exit Dates": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "Entry Price": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "Entry Balance": {
+        "type": [
+          "string",
+          "null"
+        ]
+      },
+      "Exit Balance": {
+        "type": [
+          "string",
+          "null"
+        ]
+      }
+    },
+    "type": "object"
+  },
+  "key_properties": [
+    "Id"
+  ]
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-02-03 12:00:00",
+    "Exit Dates": "2020-02-04 04:00:00",
+    "Entry Price": 0.0556,
+    "Entry Balance": 50000,
+    "Exit Balance": 50826.94
+  },
+  "time_extracted": "2023-10-10T00:00:04.017519+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-02-18 04:00:00",
+    "Exit Dates": "2020-02-18 16:00:00",
+    "Entry Price": 0.06194,
+    "Entry Balance": 50826.94,
+    "Exit Balance": 54793.51
+  },
+  "time_extracted": "2023-10-10T00:00:04.052345+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-02-19 04:00:00",
+    "Exit Dates": "2020-02-20 20:00:00",
+    "Entry Price": 0.06125,
+    "Entry Balance": 54793.51,
+    "Exit Balance": 61371.4
+  },
+  "time_extracted": "2023-10-10T00:00:04.086812+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-02-21 08:00:00",
+    "Exit Dates": "2020-02-23 04:00:00",
+    "Entry Price": 0.05894,
+    "Entry Balance": 61371.4,
+    "Exit Balance": 61699.8
+  },
+  "time_extracted": "2023-10-10T00:00:04.121649+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-02-27 16:00:00",
+    "Exit Dates": "2020-02-28 00:00:00",
+    "Entry Price": 0.0511,
+    "Entry Balance": 61699.8,
+    "Exit Balance": 64079.34
+  },
+  "time_extracted": "2023-10-10T00:00:04.155932+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-02-28 20:00:00",
+    "Exit Dates": "2020-03-02 08:00:00",
+    "Entry Price": 0.0489,
+    "Entry Balance": 64079.34,
+    "Exit Balance": 69878.24
+  },
+  "time_extracted": "2023-10-10T00:00:04.211674+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-03-03 04:00:00",
+    "Exit Dates": "2020-03-04 00:00:00",
+    "Entry Price": 0.04824,
+    "Entry Balance": 69878.24,
+    "Exit Balance": 68214.84
+  },
+  "time_extracted": "2023-10-10T00:00:04.245916+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-03-14 00:00:00",
+    "Exit Dates": "2020-03-14 16:00:00",
+    "Entry Price": 0.02862,
+    "Entry Balance": 68214.84,
+    "Exit Balance": 75167.7
+  },
+  "time_extracted": "2023-10-10T00:00:04.280019+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-03-17 08:00:00",
+    "Exit Dates": "2020-03-18 16:00:00",
+    "Entry Price": 0.0257,
+    "Entry Balance": 75167.7,
+    "Exit Balance": 78864.84
+  },
+  "time_extracted": "2023-10-10T00:00:04.314258+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-03-19 00:00:00",
+    "Exit Dates": "2020-03-19 08:00:00",
+    "Entry Price": 0.02599,
+    "Entry Balance": 78864.84,
+    "Exit Balance": 76022.38
+  },
+  "time_extracted": "2023-10-10T00:00:04.348402+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-03-25 16:00:00",
+    "Exit Dates": "2020-03-27 04:00:00",
+    "Entry Price": 0.02923,
+    "Entry Balance": 76022.38,
+    "Exit Balance": 81524.86
+  },
+  "time_extracted": "2023-10-10T00:00:04.382905+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-04-12 20:00:00",
+    "Exit Dates": "2020-04-14 04:00:00",
+    "Entry Price": 0.03347,
+    "Entry Balance": 81524.86,
+    "Exit Balance": 84189.03
+  },
+  "time_extracted": "2023-10-10T00:00:04.417229+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-04-21 16:00:00",
+    "Exit Dates": "2020-04-23 04:00:00",
+    "Entry Price": 0.03482,
+    "Entry Balance": 84189.03,
+    "Exit Balance": 92267.18
+  },
+  "time_extracted": "2023-10-10T00:00:04.451378+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-04-30 20:00:00",
+    "Exit Dates": "2020-05-01 00:00:00",
+    "Entry Price": 0.04757,
+    "Entry Balance": 92267.18,
+    "Exit Balance": 94979.35
+  },
+  "time_extracted": "2023-10-10T00:00:04.485756+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-05-01 04:00:00",
+    "Exit Dates": "2020-05-01 04:00:00",
+    "Entry Price": 0.05108,
+    "Entry Balance": 94979.35,
+    "Exit Balance": 89729.21
+  },
+  "time_extracted": "2023-10-10T00:00:04.519994+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-05-26 04:00:00",
+    "Exit Dates": "2020-05-27 04:00:00",
+    "Entry Price": 0.05337,
+    "Entry Balance": 89729.21,
+    "Exit Balance": 89563.08
+  },
+  "time_extracted": "2023-10-10T00:00:04.554341+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-06-05 20:00:00",
+    "Exit Dates": "2020-06-07 04:00:00",
+    "Entry Price": 0.08516,
+    "Entry Balance": 89563.08,
+    "Exit Balance": 90737.21
+  },
+  "time_extracted": "2023-10-10T00:00:04.588701+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-06-07 16:00:00",
+    "Exit Dates": "2020-06-07 16:00:00",
+    "Entry Price": 0.08553,
+    "Entry Balance": 90737.21,
+    "Exit Balance": 85721.56
+  },
+  "time_extracted": "2023-10-10T00:00:04.623425+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-06-11 04:00:00",
+    "Exit Dates": "2020-06-12 04:00:00",
+    "Entry Price": 0.08273,
+    "Entry Balance": 85721.56,
+    "Exit Balance": 97865.51
+  },
+  "time_extracted": "2023-10-10T00:00:04.658412+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-06-19 04:00:00",
+    "Exit Dates": "2020-06-20 08:00:00",
+    "Entry Price": 0.0793,
+    "Entry Balance": 97865.51,
+    "Exit Balance": 94284.92
+  },
+  "time_extracted": "2023-10-10T00:00:04.693750+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-06-24 16:00:00",
+    "Exit Dates": "2020-06-25 00:00:00",
+    "Entry Price": 0.08246,
+    "Entry Balance": 94284.92,
+    "Exit Balance": 89930.45
+  },
+  "time_extracted": "2023-10-10T00:00:04.728332+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-06-25 08:00:00",
+    "Exit Dates": "2020-06-27 16:00:00",
+    "Entry Price": 0.0825,
+    "Entry Balance": 89930.45,
+    "Exit Balance": 81310.07
+  },
+  "time_extracted": "2023-10-10T00:00:04.762923+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-05 08:00:00",
+    "Exit Dates": "2020-07-05 12:00:00",
+    "Entry Price": 0.09539,
+    "Entry Balance": 81310.07,
+    "Exit Balance": 80293.41
+  },
+  "time_extracted": "2023-10-10T00:00:04.797546+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-05 16:00:00",
+    "Exit Dates": "2020-07-07 00:00:00",
+    "Entry Price": 0.09602,
+    "Entry Balance": 80293.41,
+    "Exit Balance": 92024.95
+  },
+  "time_extracted": "2023-10-10T00:00:04.832246+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-09 12:00:00",
+    "Exit Dates": "2020-07-09 16:00:00",
+    "Entry Price": 0.11819,
+    "Entry Balance": 92024.95,
+    "Exit Balance": 95803.46
+  },
+  "time_extracted": "2023-10-10T00:00:04.866833+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-09 20:00:00",
+    "Exit Dates": "2020-07-09 20:00:00",
+    "Entry Price": 0.12415,
+    "Entry Balance": 95803.46,
+    "Exit Balance": 90507.77
+  },
+  "time_extracted": "2023-10-10T00:00:04.901533+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-10 04:00:00",
+    "Exit Dates": "2020-07-10 08:00:00",
+    "Entry Price": 0.11525,
+    "Entry Balance": 90507.77,
+    "Exit Balance": 94733.97
+  },
+  "time_extracted": "2023-10-10T00:00:04.936096+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-10 12:00:00",
+    "Exit Dates": "2020-07-10 12:00:00",
+    "Entry Price": 0.11626,
+    "Entry Balance": 94733.97,
+    "Exit Balance": 89497.39
+  },
+  "time_extracted": "2023-10-10T00:00:04.970629+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-14 04:00:00",
+    "Exit Dates": "2020-07-14 20:00:00",
+    "Entry Price": 0.12388,
+    "Entry Balance": 89497.39,
+    "Exit Balance": 100145.35
+  },
+  "time_extracted": "2023-10-10T00:00:05.005528+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-19 08:00:00",
+    "Exit Dates": "2020-07-20 20:00:00",
+    "Entry Price": 0.12278,
+    "Entry Balance": 100145.35,
+    "Exit Balance": 106358.78
+  },
+  "time_extracted": "2023-10-10T00:00:05.040204+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-22 00:00:00",
+    "Exit Dates": "2020-07-22 20:00:00",
+    "Entry Price": 0.12162,
+    "Entry Balance": 106358.78,
+    "Exit Balance": 102697.88
+  },
+  "time_extracted": "2023-10-10T00:00:05.096438+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-24 08:00:00",
+    "Exit Dates": "2020-07-25 12:00:00",
+    "Entry Price": 0.12328,
+    "Entry Balance": 102697.88,
+    "Exit Balance": 115831.41
+  },
+  "time_extracted": "2023-10-10T00:00:05.131117+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-27 08:00:00",
+    "Exit Dates": "2020-07-27 12:00:00",
+    "Entry Price": 0.14073,
+    "Entry Balance": 115831.41,
+    "Exit Balance": 115556.73
+  },
+  "time_extracted": "2023-10-10T00:00:05.165711+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-30 04:00:00",
+    "Exit Dates": "2020-07-30 08:00:00",
+    "Entry Price": 0.14004,
+    "Entry Balance": 115556.73,
+    "Exit Balance": 112176.23
+  },
+  "time_extracted": "2023-10-10T00:00:05.200249+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-07-30 16:00:00",
+    "Exit Dates": "2020-07-31 16:00:00",
+    "Entry Price": 0.14181,
+    "Entry Balance": 112176.23,
+    "Exit Balance": 103396.26
+  },
+  "time_extracted": "2023-10-10T00:00:05.234717+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-08-10 08:00:00",
+    "Exit Dates": "2020-08-11 12:00:00",
+    "Entry Price": 0.14366,
+    "Entry Balance": 103396.26,
+    "Exit Balance": 96363.17
+  },
+  "time_extracted": "2023-10-10T00:00:05.268869+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-08-13 04:00:00",
+    "Exit Dates": "2020-08-13 12:00:00",
+    "Entry Price": 0.13801,
+    "Entry Balance": 96363.17,
+    "Exit Balance": 99336.16
+  },
+  "time_extracted": "2023-10-10T00:00:05.303023+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-08-21 00:00:00",
+    "Exit Dates": "2020-08-22 04:00:00",
+    "Entry Price": 0.1333,
+    "Entry Balance": 99336.16,
+    "Exit Balance": 114555.24
+  },
+  "time_extracted": "2023-10-10T00:00:05.337205+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-08-24 12:00:00",
+    "Exit Dates": "2020-08-25 20:00:00",
+    "Entry Price": 0.12459,
+    "Entry Balance": 114555.24,
+    "Exit Balance": 141061.79
+  },
+  "time_extracted": "2023-10-10T00:00:05.371506+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-08-28 16:00:00",
+    "Exit Dates": "2020-08-29 04:00:00",
+    "Entry Price": 0.10959,
+    "Entry Balance": 141061.79,
+    "Exit Balance": 136743.85
+  },
+  "time_extracted": "2023-10-10T00:00:05.405995+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-08-29 08:00:00",
+    "Exit Dates": "2020-08-29 16:00:00",
+    "Entry Price": 0.11229,
+    "Entry Balance": 136743.85,
+    "Exit Balance": 130740.85
+  },
+  "time_extracted": "2023-10-10T00:00:05.440420+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-09-08 00:00:00",
+    "Exit Dates": "2020-09-08 04:00:00",
+    "Entry Price": 0.09322,
+    "Entry Balance": 130740.85,
+    "Exit Balance": 126136.62
+  },
+  "time_extracted": "2023-10-10T00:00:05.474616+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-09-11 12:00:00",
+    "Exit Dates": "2020-09-13 08:00:00",
+    "Entry Price": 0.09567,
+    "Entry Balance": 126136.62,
+    "Exit Balance": 128704.71
+  },
+  "time_extracted": "2023-10-10T00:00:05.508713+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-09-29 16:00:00",
+    "Exit Dates": "2020-09-30 00:00:00",
+    "Entry Price": 0.09896,
+    "Entry Balance": 128704.71,
+    "Exit Balance": 128257.49
+  },
+  "time_extracted": "2023-10-10T00:00:05.543056+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-09-30 08:00:00",
+    "Exit Dates": "2020-10-01 12:00:00",
+    "Entry Price": 0.09751,
+    "Entry Balance": 128257.49,
+    "Exit Balance": 137267.93
+  },
+  "time_extracted": "2023-10-10T00:00:05.577416+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-10-03 16:00:00",
+    "Exit Dates": "2020-10-04 12:00:00",
+    "Entry Price": 0.09442,
+    "Entry Balance": 137267.93,
+    "Exit Balance": 136113.4
+  },
+  "time_extracted": "2023-10-10T00:00:05.611991+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-10-14 04:00:00",
+    "Exit Dates": "2020-10-14 12:00:00",
+    "Entry Price": 0.10965,
+    "Entry Balance": 136113.4,
+    "Exit Balance": 131511.54
+  },
+  "time_extracted": "2023-10-10T00:00:05.646527+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-10-14 16:00:00",
+    "Exit Dates": "2020-10-15 00:00:00",
+    "Entry Price": 0.10648,
+    "Entry Balance": 131511.54,
+    "Exit Balance": 127687.69
+  },
+  "time_extracted": "2023-10-10T00:00:05.681609+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-10-15 04:00:00",
+    "Exit Dates": "2020-10-16 04:00:00",
+    "Entry Price": 0.10717,
+    "Entry Balance": 127687.69,
+    "Exit Balance": 121148.9
+  },
+  "time_extracted": "2023-10-10T00:00:05.716160+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-10-23 20:00:00",
+    "Exit Dates": "2020-10-26 12:00:00",
+    "Entry Price": 0.10814,
+    "Entry Balance": 121148.9,
+    "Exit Balance": 110447.74
+  },
+  "time_extracted": "2023-10-10T00:00:05.750659+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-10-27 12:00:00",
+    "Exit Dates": "2020-10-28 16:00:00",
+    "Entry Price": 0.10415,
+    "Entry Balance": 110447.74,
+    "Exit Balance": 122622.3
+  },
+  "time_extracted": "2023-10-10T00:00:05.785016+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-10-31 12:00:00",
+    "Exit Dates": "2020-11-01 12:00:00",
+    "Entry Price": 0.09428,
+    "Entry Balance": 122622.3,
+    "Exit Balance": 120564.01
+  },
+  "time_extracted": "2023-10-10T00:00:05.819580+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-11-04 00:00:00",
+    "Exit Dates": "2020-11-04 04:00:00",
+    "Entry Price": 0.09321,
+    "Entry Balance": 120564.01,
+    "Exit Balance": 116581.86
+  },
+  "time_extracted": "2023-10-10T00:00:05.854100+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-11-07 20:00:00",
+    "Exit Dates": "2020-11-08 00:00:00",
+    "Entry Price": 0.1014,
+    "Entry Balance": 116581.86,
+    "Exit Balance": 114287.35
+  },
+  "time_extracted": "2023-10-10T00:00:05.888953+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-11-08 04:00:00",
+    "Exit Dates": "2020-11-09 04:00:00",
+    "Entry Price": 0.10258,
+    "Entry Balance": 114287.35,
+    "Exit Balance": 118771.03
+  },
+  "time_extracted": "2023-10-10T00:00:05.923334+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-12-10 00:00:00",
+    "Exit Dates": "2020-12-11 12:00:00",
+    "Entry Price": 0.14647,
+    "Entry Balance": 118771.03,
+    "Exit Balance": 129681.6
+  },
+  "time_extracted": "2023-10-10T00:00:05.957998+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-12-16 04:00:00",
+    "Exit Dates": "2020-12-17 04:00:00",
+    "Entry Price": 0.15183,
+    "Entry Balance": 129681.6,
+    "Exit Balance": 151643.68
+  },
+  "time_extracted": "2023-10-10T00:00:06.012754+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-12-18 16:00:00",
+    "Exit Dates": "2020-12-19 16:00:00",
+    "Entry Price": 0.16265,
+    "Entry Balance": 151643.68,
+    "Exit Balance": 157030.6
+  },
+  "time_extracted": "2023-10-10T00:00:06.047682+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-12-26 08:00:00",
+    "Exit Dates": "2020-12-26 08:00:00",
+    "Entry Price": 0.15356,
+    "Entry Balance": 157030.6,
+    "Exit Balance": 148350.48
+  },
+  "time_extracted": "2023-10-10T00:00:06.082118+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-12-26 12:00:00",
+    "Exit Dates": "2020-12-27 08:00:00",
+    "Entry Price": 0.15464,
+    "Entry Balance": 148350.48,
+    "Exit Balance": 153147.24
+  },
+  "time_extracted": "2023-10-10T00:00:06.116795+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2020-12-30 12:00:00",
+    "Exit Dates": "2020-12-30 16:00:00",
+    "Entry Price": 0.18153,
+    "Entry Balance": 153147.24,
+    "Exit Balance": 148241.64
+  },
+  "time_extracted": "2023-10-10T00:00:06.151132+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-01-10 16:00:00",
+    "Exit Dates": "2021-01-10 20:00:00",
+    "Entry Price": 0.3004,
+    "Entry Balance": 148241.64,
+    "Exit Balance": 155922.71
+  },
+  "time_extracted": "2023-10-10T00:00:06.185596+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-01-19 00:00:00",
+    "Exit Dates": "2021-01-19 04:00:00",
+    "Entry Price": 0.36435,
+    "Entry Balance": 155922.71,
+    "Exit Balance": 156952.03
+  },
+  "time_extracted": "2023-10-10T00:00:06.219940+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-01-20 00:00:00",
+    "Exit Dates": "2021-01-20 04:00:00",
+    "Entry Price": 0.35601,
+    "Entry Balance": 156952.03,
+    "Exit Balance": 162443.56
+  },
+  "time_extracted": "2023-10-10T00:00:06.254203+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-01-23 08:00:00",
+    "Exit Dates": "2021-01-23 08:00:00",
+    "Entry Price": 0.33801,
+    "Entry Balance": 162443.56,
+    "Exit Balance": 153464.22
+  },
+  "time_extracted": "2023-10-10T00:00:06.288564+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-01-31 20:00:00",
+    "Exit Dates": "2021-02-01 00:00:00",
+    "Entry Price": 0.34505,
+    "Entry Balance": 153464.22,
+    "Exit Balance": 147664.47
+  },
+  "time_extracted": "2023-10-10T00:00:06.322841+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-02-01 04:00:00",
+    "Exit Dates": "2021-02-01 12:00:00",
+    "Entry Price": 0.34774,
+    "Entry Balance": 147664.47,
+    "Exit Balance": 147624.5
+  },
+  "time_extracted": "2023-10-10T00:00:06.357711+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-02-28 04:00:00",
+    "Exit Dates": "2021-02-28 04:00:00",
+    "Entry Price": 1.19655,
+    "Entry Balance": 147624.5,
+    "Exit Balance": 139464.35
+  },
+  "time_extracted": "2023-10-10T00:00:06.391978+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-02-28 08:00:00",
+    "Exit Dates": "2021-02-28 08:00:00",
+    "Entry Price": 1.27401,
+    "Entry Balance": 139464.35,
+    "Exit Balance": 131755.26
+  },
+  "time_extracted": "2023-10-10T00:00:06.426271+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-02-28 12:00:00",
+    "Exit Dates": "2021-02-28 16:00:00",
+    "Entry Price": 1.20394,
+    "Entry Balance": 131755.26,
+    "Exit Balance": 141462.71
+  },
+  "time_extracted": "2023-10-10T00:00:06.460813+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-03-02 04:00:00",
+    "Exit Dates": "2021-03-02 16:00:00",
+    "Entry Price": 1.21276,
+    "Entry Balance": 141462.71,
+    "Exit Balance": 146084.31
+  },
+  "time_extracted": "2023-10-10T00:00:06.495119+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-03-02 20:00:00",
+    "Exit Dates": "2021-03-02 20:00:00",
+    "Entry Price": 1.22294,
+    "Entry Balance": 146084.31,
+    "Exit Balance": 138009.29
+  },
+  "time_extracted": "2023-10-10T00:00:06.529351+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-03-03 00:00:00",
+    "Exit Dates": "2021-03-03 12:00:00",
+    "Entry Price": 1.21905,
+    "Entry Balance": 138009.29,
+    "Exit Balance": 139451.06
+  },
+  "time_extracted": "2023-10-10T00:00:06.563210+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-03-05 20:00:00",
+    "Exit Dates": "2021-03-05 20:00:00",
+    "Entry Price": 1.15845,
+    "Entry Balance": 139451.06,
+    "Exit Balance": 131742.7
+  },
+  "time_extracted": "2023-10-10T00:00:06.597635+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-03-06 00:00:00",
+    "Exit Dates": "2021-03-06 00:00:00",
+    "Entry Price": 1.14085,
+    "Entry Balance": 131742.7,
+    "Exit Balance": 124460.45
+  },
+  "time_extracted": "2023-10-10T00:00:06.632105+00:00"
+}
+{
+  "type": "RECORD",
+  "stream": "ada",
+  "record": {
+    "Entry Dates": "2021-03-06 04:00:00",
+    "Exit Dates": "2021-03-06 16:00:00",
+    "Entry Price": 1.14774,
+    "Entry Balance": 124460.45,
+    "Exit Balance": 130227.51
+  },
+  "time_extracted": "2023-10-10T00:00:06.666556+00:00"
+}
+{
+  "type": "STATE",
+  "value": {
+    "bookmarks": {
+      "ada": {}
+    }
+  }
+}
