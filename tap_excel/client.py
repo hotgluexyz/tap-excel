@@ -1,7 +1,7 @@
 """Custom client handling, including ExcelStream base class."""
 import os
 from datetime import datetime, timezone
-from typing import Iterable, List, Optional
+from typing import Iterable, List, Optional, Union
 import pandas as pd
 
 from typing import Iterable
@@ -30,7 +30,7 @@ class ExcelStream(Stream):
 
     def get_records(
         self,
-        context: dict | None,  # noqa: ARG002
+        context: Union[dict, None] = None,  # noqa: ARG002
     ) -> Iterable[dict]:
         """Return a generator of record-type dictionary objects.
 
