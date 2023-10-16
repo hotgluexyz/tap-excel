@@ -75,9 +75,11 @@ class TapExcel(Tap):
         sheets = pd.ExcelFile(excel_files[0]["path"]).sheet_names
         streams = []
         for sheet in sheets:
+            path_to_append = excel_files[0]["path"]
             streams.append({
                 "entity": sheet,
-                "path": excel_files[0]["path"],
+                "path": path_to_append,
+                "keys": ["Id"],
                 "sheet_name": sheet
             })
         return streams
