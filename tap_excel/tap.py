@@ -2,15 +2,13 @@
 
 import json
 import os
+import pandas as pd
 from typing import List
-
 from singer_sdk import Stream, Tap
 from singer_sdk import typing as th  # JSON schema typing helpers
 from singer_sdk.helpers._classproperty import classproperty
 from singer_sdk.helpers.capabilities import TapCapabilities
-
 from tap_excel.client import ExcelStream
-
 
 class TapExcel(Tap):
     """Excel tap class."""
@@ -46,7 +44,6 @@ class TapExcel(Tap):
             ),
         ),
     ).to_dict()
-
     @classproperty
     def capabilities(self) -> List[TapCapabilities]:
         """Get tap capabilites."""
@@ -54,15 +51,17 @@ class TapExcel(Tap):
             TapCapabilities.CATALOG,
             TapCapabilities.DISCOVER,
         ]
-
+    # def update_config(self):
     def get_file_configs(self) -> List[dict]:
         """Return a list of file configs.
-
         Either directly from the config.json or in an external file
         defined by csv_files_definition.
         """
         excel_files = self.config.get("files")
         excel_files_definition = self.config.get("excel_files_definition")
+        if len(excel_files) > 1:
+            self.logger.error(f"tap-excel: 'Cannot tap more than one file at a time")
+            exit(1)
         if excel_files_definition:
             if os.path.isfile(excel_files_definition):
                 with open(excel_files_definition, "r") as f:
@@ -73,8 +72,17 @@ class TapExcel(Tap):
         if not excel_files:
             self.logger.error("No excel file definitions found.")
             exit(1)
-        return excel_files
-
+        sheets = pd.ExcelFile(excel_files[0]["path"]).sheet_names
+        streams = []
+        for sheet in sheets:
+            path_to_append = excel_files[0]["path"]
+            streams.append({
+                "entity": sheet,
+                "path": path_to_append,
+                "keys": ["Id"],
+                "sheet_name": sheet
+            })
+        return streams
     def discover_streams(self) -> List[Stream]:
         """Return a list of discovered streams."""
         return [
@@ -85,7 +93,5 @@ class TapExcel(Tap):
             )
             for file_config in self.get_file_configs()
         ]
-
-
 if __name__ == "__main__":
     TapExcel.cli()

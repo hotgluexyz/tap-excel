@@ -1,7 +1,7 @@
 """Custom client handling, including ExcelStream base class."""
 import os
 from datetime import datetime, timezone
-from typing import Iterable, List, Optional
+from typing import Iterable, List, Optional, Union
 import pandas as pd
 
 from typing import Iterable
@@ -30,7 +30,7 @@ class ExcelStream(Stream):
 
     def get_records(
         self,
-        context: dict | None,  # noqa: ARG002
+        context: Union[dict, None] = None,  # noqa: ARG002
     ) -> Iterable[dict]:
         """Return a generator of record-type dictionary objects.
 
@@ -100,7 +100,7 @@ class ExcelStream(Stream):
 
     def is_valid_filename(self, file_path: str) -> bool:
         """Return a boolean of whether the file includes XLSX extension."""
-        valid_extentions = ["xls", "xlsx", "xlsm", "xlsb", "odf", "ods", "odt"]
+        valid_extentions = [".xls", "xlsx", "xlsm", "xlsb", ".odf", ".ods", ".odt"]
         is_valid = True
         if file_path[-4:] not in valid_extentions:
             is_valid = False
@@ -114,11 +114,11 @@ class ExcelStream(Stream):
     def get_rows(self, file_path: str) -> Iterable[list]:
         """Return a generator of the rows in a particular xlsx file."""
         sheet = 0
-        if self.file_config["sheet_name"] != "0":
+        if self.file_config["sheet_name"]:
             sheet = self.file_config["sheet_name"]
 
-        excel_file = pd.read_excel(file_path, index_col=0, header=None, sheet_name = sheet)
-        
+        excel_file = pd.read_excel(file_path, index_col=None, header=None, sheet_name = sheet).fillna("NaN")
+        excel_file.astype(dtype="str")
         for row in excel_file.values.tolist():
             yield row
 
