@@ -30,7 +30,7 @@ class ExcelStream(Stream):
 
     def get_records(
         self,
-        context: dict | None,  # noqa: ARG002
+        context
     ) -> Iterable[dict]:
         """Return a generator of record-type dictionary objects.
 
